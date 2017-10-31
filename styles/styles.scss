@@ -1,0 +1,54 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body,html {
+   height: 100%;
+   background: #eee;
+   line-height: 1.5;
+   font-family: monospace;
+}
+
+.header {
+   height: 100%;
+   background: url('../assets/portfolio-pictures/bridge-blur.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+
+.navbar {
+   background: rgba(0,0,0,.1);
+   border: 0;
+   .navbar-header .navbar-brand {
+      color: #333;
+   }
+   ul li a {
+      color: purple;
+   }
+}
+
+.header-content {
+   text-shadow: 0px 0px 2px #333;
+   box-shadow: 0px 0px 20px #333;
+   // border: 3px solid black;
+   // border-top-left-radius: 60px;
+   // border-bottom-right-radius: 40px;
+   display: inline-block;
+   margin: 90px 10px 0 10px;
+   padding: 1em;
+   background: rgba(255,255,255,.2);
+   .container {
+      h1 {
+         font-family: sans-serif;
+         font-size: 80px;
+      }
+      h3 {
+         font-size: 30px;
+      }
+   }
+
+}
